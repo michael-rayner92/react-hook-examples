@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Todos from "./todos/Todos";
-import "./App.css";
 import ThemeSwitcher from "./hooks/ThemeSwitcher";
-import Counter from "./hooks/Counter";
 import NameForm from "./hooks/NameForm";
+import Counter from "./hooks/Counter";
+import "./App.css";
 
 function App() {
   const [demo, setDemo] = useState("useRef");

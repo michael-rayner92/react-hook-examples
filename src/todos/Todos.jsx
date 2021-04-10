@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import { useState, useReducer } from "react";
 import Todo from "./Todo";
 
 export const ACTIONS = {
